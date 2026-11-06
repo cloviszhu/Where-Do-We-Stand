@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" data-type="software">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#100c26" />
+    <meta name="page-type" content="software" />
+    <meta name="site-kind" content="software" />
+    <meta
+      name="description"
+      content="A developer's starting point, seen among 65,437 real survey responses."
+    />
+    <title>Where Do We Stand? / A — People, paths & possibilities</title>
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+<!-- Software / survey narrative. Reviewed Retro-Futurism palette and hero; data, not marketing cards, carries the story. -->
+<a class="skip" href="#main">Skip to the story</a>
+<header class="site-nav"><a class="brand" href="#start" aria-label="Where Do We Stand home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M3 11v18h7V17h6v12h7V11h6v18h8V11" fill="none" stroke="currentColor" stroke-width="3"/></svg><span>WHERE DO<br>WE STAND?</span></a><nav aria-label="Chapters"><a href="#people" id="nav-explore">The crowd</a><a href="#peers">Peers</a><a href="#pay">Pay</a><a href="#skills">Skills</a><a href="#ai">AI</a></nav><div class="nav-tools"><button id="source-button">The data</button></div><div id="progress"></div></header>
+<div class="chapter-track"><span id="chapter">A starting point</span><span>2024 survey / 65,437 voices</span></div>
+<main id="main">
+    <section id="start" class="retro-home" data-scene="opening">
+      <div class="atmosphere" aria-hidden="true">
+        <div class="halo"></div>
+        <div class="sun"></div>
+        <div class="horizon"></div>
+        <div class="grid-floor"></div>
+        <div class="grain"></div>
+      </div>
+      <div class="opening-copy">
+        <div class="intro-label">
+          <span></span>65,437 RESPONSES. ONE STARTING POINT.
+        </div>
+        <h1><span>WHERE DO</span><span class="chrome-text">WE STAND?</span></h1>
+        <p>
+          A first role. A next skill. A place in the crowd.<br />Start with
+          Alex, then find the people behind the numbers.
+        </p>
+        <div class="hero-actions">
+          <button id="meet-alex" disabled class="neon-button">
+            Meet Alex <span aria-hidden="true">↗</span></button
+          ><button id="skip-story" disabled class="quiet-button">
+            Go to the crowd <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+      <canvas
+        id="hero-canvas"
+        aria-label="Overview of 1,309 units containing all 65,437 responses. Explore the crowd below to open records."
+      ></canvas>
+      <div id="hero-labels" aria-hidden="true"></div>
+      <div id="hero-tip" role="status" hidden></div>
+      <div
+        class="alex-pin"
+        aria-label="Alex, a fictional guide, excluded from survey counts"
+      >
+        <span class="alex-figure"><i></i><b></b></span>
+        <div><strong>ALEX</strong><span>A fictional starting point</span></div>
+      </div>
+      <footer class="page-foot">
+        <div>
+          <span class="legend-unit" aria-hidden="true"></span
+          ><span>1 unit = up to 50 responses</span>
+        </div>
+        <span class="foot-hint">Scroll to follow Alex ↓</span
+        ><span>STACK OVERFLOW / 2024</span>
+      </footer>
+    </section>
+<div id="load-status" role="status" class="load-status">Loading the survey…</div>
+ <section id="alex" class="alex-chapter wrap" aria-labelledby="alex-title">
+  <div class="alex-copy"><p class="section-index">01 / Meet Alex</p><h2 id="alex-title">The code runs.<br>What comes next?</h2><p class="lead">Graduation is close. Alex knows JavaScript.<br>The next step feels less certain.</p><p>A CS student in Canada, considering a full-stack role. A fictional starting point for a very real question: where do people like me stand?</p><a class="solid-link" id="join-crowd" href="#people">Meet the people <span aria-hidden="true">↓</span></a></div>
+  <div class="alex-portrait" aria-label="Alex is a fictional guide, excluded from survey counts"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portrait-person" aria-hidden="true"><span class="alex-figure"><i></i><b></b></span></div><div class="portrait-name">ALEX <span>Fictional guide</span></div><dl class="alex-facts"><div><dt>Current status</dt><dd>CS student</dd></div><div><dt>Professional coding</dt><dd>Under 1 year</dd></div><div><dt>Next question</dt><dd>Where could I begin?</dd></div></dl></div>
+ </section>
+ <section id="people" aria-label="From Alex to all respondents" class="people-story">
+  <div id="crowd-shell" class="crowd-shell">
+   <div class="crowd-top"><div><span class="section-index" id="crowd-index">02 / Meet the people</span><h2 id="crowd-title">Every answer came from someone.</h2><p id="sample-label">2024 Stack Overflow respondents</p></div><div class="crowd-top-actions"><button id="resume-story">Replay story</button><button class="primary" id="find-place">Find your place</button></div></div>
+   <div id="explore-controls" class="explore-controls"><div role="group" aria-label="Group by"><span>Group by</span><button data-group="role">Role / status</button><button data-group="experience">Experience</button><button data-group="education">Education</button><button data-group="ai">AI use</button><button data-group="all">Overview</button></div><button id="browse-units">Browse units</button><button id="open-filter">Filter respondents</button><button id="open-records">Search records</button></div>
+   <div class="canvas-wrap"><canvas id="crowd" tabindex="0" aria-label="Survey units, each containing up to 50 responses. Use Browse units or Search records for accessible selection. In Explore, arrow keys pan, plus and minus zoom, Home fits all."></canvas><div id="unit-tip" role="status" hidden></div><div id="zone-labels" role="group" aria-label="Zoom into a group"></div><div id="story-caption" class="story-caption"><b>Alex is one starting point.</b><p>Let’s meet the people behind the survey before comparing their answers.</p></div><p id="profile-result" role="status" hidden></p><div id="empty-crowd" hidden>No respondents match these filters. <button id="empty-clear">Clear filters</button></div><div class="zoom-controls" aria-label="Map controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="fit-map">Fit all</button><button id="locate-alex">Locate Alex</button><button id="locate-me" disabled>Locate me</button></div><aside id="detail" class="detail-panel" aria-label="Respondent details" hidden></aside></div>
+   <div class="crowd-bottom"><span id="mode-label">Guided story / keep scrolling</span><span id="encoding">1 unit ≤ 50 responses · Color = category. Alex / YOU are extra markers.</span><button id="enter-explore">Explore freely</button><a class="plan-jump" href="#peers">Explore the patterns ↓</a></div>
+  </div>
+  <div class="story-space" aria-hidden="true"></div>
+ </section>
+ <section id="peers" class="story-section wrap" aria-labelledby="peers-title"><div class="section-copy"><p class="section-index">03 / Find your peers</p><h2 id="peers-title">A job title is only<br>part of the picture.</h2><p class="alex-question"><span class="mini-person" aria-hidden="true">●</span> Alex asks: “Who is at a similar starting point?”</p><p>Common roles contain people at very different stages. Compare experience <em>within</em> each role, then look at the sample behind a cell.</p><p id="peer-insight" class="insight"></p><p class="quiet">Experience describes time spent coding professionally. Hiring demand and ability are different questions.</p></div><div class="chart-block"><div class="chart-heading"><h3>Where experience sits within a role</h3><span>2024 / global survey</span></div><div class="controls"><label>Country<select id="peer-country"></select></label><label>Highlight experience<select id="peer-experience"></select></label><label>Reported role<select id="peer-role"></select></label></div><div id="heatmap" class="chart"></div><p id="heat-note" class="chart-note"></p><p class="chart-hint">Select a cell to explore its actual respondents. Hover or focus a mark for exact values.</p><details id="heat-table"></details></div></section>
+ <section id="pay" class="story-section wrap" aria-labelledby="pay-title"><div class="section-copy"><p class="section-index">04 / Experience & pay</p><h2 id="pay-title">More experience.<br>Many outcomes.</h2><p class="alex-question"><span class="mini-person" aria-hidden="true">●</span> “What might experience bring?”</p><p>Typical compensation varies with experience. The ranges overlap: people at the same stage can earn very different amounts.</p><p class="quiet">This is a snapshot of different people, not a forecast of Alex’s future salary.</p></div><div class="chart-block"><div class="chart-heading"><h3>Compensation has a range</h3><span>2024 / annual USD</span></div><div class="controls"><label>Country<select id="pay-country"><option value="United States of America">United States</option><option>Canada</option><option>Germany</option><option value="United Kingdom of Great Britain and Northern Ireland">United Kingdom</option><option>India</option></select></label><label>Experience<select id="pay-experience"><option value="">All bands</option><option>&lt;1</option><option>1–2</option><option>3–5</option><option>6–10</option><option>11–20</option><option>21–30</option><option>31+</option></select></label><span class="inline-key"><i class="dot pink"></i> Median <i class="interval"></i> Middle 50%</span></div><div id="pay-chart" class="chart"></div><p id="pay-note" class="chart-note"></p><details id="pay-table"></details></div></section>
+ <section id="skills" class="story-section wrap" aria-labelledby="skills-title"><div class="section-copy"><p class="section-index">05 / Choose what to explore</p><h2 id="skills-title">What we use.<br>What we want next.</h2><p class="alex-question"><span class="mini-person" aria-hidden="true">●</span> “What should I spend time learning?”</p><p>See where current use and future interest meet—and where they pull apart. A practical foundation and a new direction can coexist.</p><p class="quiet">The question asks what respondents want to work with next year, including tools they already use. It is not a hiring forecast.</p><button id="tech-explore" class="text-button">Explore people who use a language</button></div><div class="chart-block"><div class="chart-heading"><h3>Use and next-year interest, on the same scale</h3><span>2024 / multiple choice</span></div><div class="controls"><label>Compare<select id="tech-cohort"><option value="all">All experience</option><option value="early">0–5 professional years</option></select></label><label>Sort by<select id="tech-sort"><option value="used">Current use</option><option value="wanted">Desired use</option><option value="gap">Interest minus use</option></select></label><label>Find a language<input id="tech-search" type="search" name="technology" autocomplete="off" placeholder="For example, Rust…"></label></div><div class="legend"><span><i class="dot"></i> Used in past year</span><span><i class="dot pink"></i> Want next year</span></div><div id="tech-chart" class="chart"></div><p id="tech-note" class="chart-note"></p><details id="tech-table"></details></div></section>
+ <section id="ai" class="story-section wrap" aria-labelledby="ai-title"><div class="section-copy"><p class="section-index">06 / Work is changing</p><h2 id="ai-title">AI use grows.<br>Trust takes work.</h2><p class="alex-question"><span class="mini-person" aria-hidden="true">●</span> “How do I adapt without handing over my judgment?”</p><p>AI use rose across these surveys. Among current users who answered the trust question, positive trust fell.</p><p class="quiet">Each year contains different respondents. These lines describe sample-level change, not the same people changing their minds.</p></div><div class="chart-block"><div class="chart-heading"><h3>Adoption and accuracy trust take different paths</h3><span>2023–2025</span></div><div id="ai-trend" class="chart"></div><p class="chart-note">Use = current users / people answering the use question. Trust = “Highly trust” or “Somewhat trust” / current users answering accuracy trust. 2023 uses AIBen; 2024/2025 use AIAcc. Frequency options in 2025 are combined for the use trend.</p><details id="ai-table"></details><h3 class="sub-chart-title">Look inside those attitudes</h3><p class="chart-note">2025 only / a different sample from the 2024 crowd above. Each bar’s denominator includes all respondents in that usage group; missing trust is shown as Unknown.</p><div id="ai-composition" class="chart"></div><div id="trust-legend" class="legend compact"></div><details id="composition-table"></details></div></section>
+ <section id="your-plan" class="plan-section wrap"><div><p class="section-index">07 / Your next question</p><h2>A place to start.<br>Room to choose.</h2><p>The survey can give you context. What you do with it is yours.</p></div><div id="plan-content"><p>Explore the people first, or add a YOU marker to see a cohort defined by your own conditions.</p><button class="primary" id="plan-find">Find your place</button><div class="return-links"><a href="#peers">Compare peers</a><a href="#pay">Revisit pay</a><a href="#skills">Explore a language</a><a href="#ai">Think about AI</a></div></div></section>
+ <footer class="site-footer wrap"><div><b>Where Do We Stand?</b><p>An exploration of developers’ answers,<br>not a census of everyone who codes.</p></div><div><a href="https://survey.stackoverflow.co/" target="_blank" rel="noreferrer">Stack Overflow Developer Survey</a><p>Data: ODbL 1.0 / contents: DbCL 1.0.<br>Self-selected respondents; descriptive, unweighted results.</p></div><div><a href="./data/manifest.json">Sources & cleaning manifest</a><br><a href="./data/dictionary.json">Field dictionary & grouping rules</a><p>Story reference: <a href="https://pudding.cool/2026/06/love-story/">The Pudding, A love story</a>.</p></div></footer>
+</main>
+<dialog id="profile-dialog" aria-labelledby="profile-title"><form id="profile-form"><div class="dialog-top"><span id="profile-step">Your place / 1 of 3</span><button type="button" class="close-dialog" aria-label="Close profile">×</button></div><h2 id="profile-title">Start where you are.</h2><p>Your choices stay in this tab. YOU is a personal marker, never a new survey response.</p><div id="profile-fields"></div><p id="profile-error" role="alert"></p><div class="dialog-actions"><button type="button" id="profile-back">Back</button><button type="submit" class="primary" id="profile-next">Next</button></div></form></dialog>
+<dialog id="records-dialog" aria-labelledby="records-title"><div class="dialog-top"><span>2024 / anonymous responses</span><button class="close-dialog" aria-label="Close records">×</button></div><h2 id="records-title">Find an individual.</h2><p>Every retained response is available here. Search by ID, role, country or language. Results follow the active filters.</p><label>Search records<input type="search" name="record-search" id="record-search" autocomplete="off" placeholder="For example, 2024-102 or Python…"></label><p id="record-count" role="status"></p><div id="record-list"></div><div class="dialog-actions"><button id="records-prev">Previous 20</button><button id="records-next">Next 20</button></div></dialog>
+<dialog id="filter-dialog" aria-labelledby="filter-title"><form id="filter-form"><div class="dialog-top"><span>Filter / changes the sample</span><button type="button" class="close-dialog" aria-label="Close filters">×</button></div><h2 id="filter-title">Choose whose answers to see.</h2><p>Grouping only moves people. Filtering changes which respondents are included and the denominator.</p><div id="filter-fields"></div><div class="dialog-actions"><button type="button" id="clear-filters">Clear filters</button><button class="primary" type="submit">Apply filters</button></div></form></dialog>
+    <dialog id="source-dialog" class="source-dialog">
+      <button class="source-close" aria-label="Close data notes">×</button
+      ><span class="intro-label">ABOUT THE DATA</span>
+      <h2>The people behind the picture.</h2>
+      <p>
+        All 65,437 responses from the 2024 Stack Overflow Developer Survey are
+        retained. A unit contains up to 50 actual records, grouped within the
+        selected category. Its remainder is shown exactly when opened.
+      </p>
+      <p>
+        Changing the category repacks the units. Their membership can change;
+        each underlying respondent ID stays the same. Unknown answers remain
+        visible.
+      </p>
+      <p>Alex and YOU are extra markers. AI trend charts use independent 2023–2025 samples; the main crowd always uses 2024. Profiles stay in memory in this tab and disappear on reload.</p><p>
+        Alex is a fictional guide and is never added to the survey. These
+        voluntary responses describe a sample, not every developer.
+      </p>
+      <a
+        href="https://survey.stackoverflow.co/2024/"
+        target="_blank"
+        rel="noreferrer"
+        >Read the original survey ↗</a
+      >
+    </dialog>
+<div id="announcer" class="sr-only" aria-live="polite"></div><script type="module" src="/src/home.ts"></script></body></html>

@@ -1,0 +1,11 @@
+{
+  "name": "where-do-we-stand",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:sites": "npm ci --prefix prototypes/people && npm ci --prefix prototypes/archives",
+    "test": "npm test --prefix prototypes/people && npm test --prefix prototypes/archives",
+    "build": "node scripts/build-pages.mjs"
+  },
+  "engines": { "node": ">=24" }
+}

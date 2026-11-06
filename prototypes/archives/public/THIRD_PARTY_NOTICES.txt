@@ -1,0 +1,34 @@
+WHERE DO WE STAND? / ARCHIVE PROTOTYPE B
+
+Contains information from the Stack Overflow Annual Developer Survey,
+copyright Stack Exchange, Inc., available under the Open Database License
+(ODbL) 1.0. Individual database contents are under DbCL 1.0.
+The cleaned and dictionary-packed derivative database in data/ is also
+available under ODbL 1.0. Its transformations and source hashes are provided
+in the implementation package (scripts/, data/sources.json and manifest.json).
+
+Official source: https://survey.stackoverflow.co/
+Pinned source: https://github.com/StackExchange/Survey/tree/9dd5c163b7ec09ce5503f711c37a99dbd80ff3c7
+Licence: https://opendatacommons.org/licenses/odbl/1-0/
+Contents: https://opendatacommons.org/licenses/dbcl/1-0/
+The authoritative licence text is included by URI above.
+
+D3 7.9.0 and its bundled modules: ISC, copyright Mike Bostock and contributors.
+https://github.com/d3/d3
+See licenses/d3.txt and licenses/d3-modules.txt.
+
+IBM Plex Sans and IBM Plex Mono: SIL Open Font License 1.1.
+Copyright IBM Corp. The font files are served locally via Fontsource.
+https://github.com/IBM/plex
+See licenses/ibm-plex-sans.txt and licenses/ibm-plex-mono.txt.
+
+Visual and interaction references (no logos, audio, artwork or source code
+copied into the application):
+- LBEILC/RhineLabUI, https://rhine.lubeiluchen.cc/
+  DESIGN.md reviewed at commit 12cc5e4013acb9408f753ff71de6b8492299b7c8.
+- The Pudding, A love story, https://pudding.cool/2026/06/love-story/
+  the-pudding/love-story reviewed at 243ddbd90c14a4abf2d37447bdd5906e5506dc74.
+
+The project is an independent student prototype. It is not affiliated with
+Stack Overflow, The Pudding, the reference developers or the fictional game
+organisation used by RhineLabUI. Alex is fictional. YOU is a local marker.

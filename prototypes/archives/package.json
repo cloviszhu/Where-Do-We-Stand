@@ -1,0 +1,25 @@
+{
+  "name": "where-do-we-stand-archives",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/saira": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "5.2.7",
+    "@fontsource/ibm-plex-sans": "5.2.7",
+    "d3": "7.9.0"
+  },
+  "devDependencies": {
+    "@types/d3": "7.4.3",
+    "@types/node": "22.19.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "6.4.5"
+  }
+}
