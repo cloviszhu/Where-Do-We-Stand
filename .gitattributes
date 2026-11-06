@@ -1,0 +1,2 @@
+# Public manifests record checksums: preserve processed data byte-for-byte.
+/prototypes/*/public/data/* -text

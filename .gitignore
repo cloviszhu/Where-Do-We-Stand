@@ -1,6 +1,7 @@
 # Publish only runnable A/B source, processed public data and deployment files.
 /*
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/package.json
 !/.github/
